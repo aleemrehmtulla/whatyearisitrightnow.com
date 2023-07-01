@@ -29,7 +29,7 @@ export default function Home() {
         <title>What Year Is It Right Now?</title>
         <meta
           name="description"
-          content="Sites Aleem Rehmtulla makes: What years do they know? Do they know years? Let's find out!"
+          content="Things aleem builds: What years do they know? Do they know years? Let's find out!"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
