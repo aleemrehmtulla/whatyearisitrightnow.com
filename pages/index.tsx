@@ -1,4 +1,5 @@
 import { Heading, VStack, SimpleGrid, Text } from "@chakra-ui/react";
+import Head from "next/head";
 
 type PlanetData = {
   planet: string;
@@ -24,6 +25,14 @@ export default function Home() {
   const CURRENT_YEAR = new Date().getFullYear();
   return (
     <>
+      <Head>
+        <title>What Year Is It Right Now?</title>
+        <meta
+          name="description"
+          content="Sites Aleem Rehmtulla makes: What years do they know? Do they know years? Let's find out!"
+        />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <VStack
         justifyContent="center"
         height={{ base: "90vh", md: "100vh" }}
@@ -64,7 +73,7 @@ export default function Home() {
 
         <VStack justifyContent="center">
           <Text
-            fontSize={{ base: "lg", md: "lg" }}
+            fontSize={{ base: "lg", md: "xl" }}
             textAlign="center"
             fontWeight="bold"
             fontFamily="ness"
